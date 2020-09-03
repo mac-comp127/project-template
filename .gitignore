@@ -26,6 +26,8 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
+# macOS Finder settings
+.DS_Store
 
 
 # IDE-specific config (IDEs can generate from Gradle config)
@@ -34,5 +36,6 @@ gradle-app.setting
 .project
 .settings/*
 !.settings/org.eclipse.jdt.core.prefs
-.vscode
+.vscode/*
+!.vscode/settings.json
 bin
